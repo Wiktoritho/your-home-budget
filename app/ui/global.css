@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #000;
+  --violet: #AB96FF;
+  --darkGray: #19181C;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
